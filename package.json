@@ -1,0 +1,27 @@
+{
+  "name": "discord_resumenes_scripts",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.0",
+  "dependencies": {
+    "axios": "^1.15.0",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/node": "^25.6.0",
+    "tsc-watch": "^7.2.0",
+    "typescript": "^6.0.2"
+  }
+}
