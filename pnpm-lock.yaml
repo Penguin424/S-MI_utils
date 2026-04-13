@@ -14,6 +14,9 @@ importers:
       dotenv:
         specifier: ^17.4.2
         version: 17.4.2
+      youtube-sr:
+        specifier: ^4.3.12
+        version: 4.3.12
     devDependencies:
       '@types/axios':
         specifier: ^0.14.4
@@ -210,6 +213,9 @@ packages:
     engines: {node: '>= 8'}
     hasBin: true
 
+  youtube-sr@4.3.12:
+    resolution: {integrity: sha512-pAuh5FjCJ6q062lMw6ajr6j9IHKMXk/AZsEo/5xLhJcoO1gN/M2kxwfAwi3d9QLHMPg2DMdBL1DsuWbAsfc5HA==}
+
 snapshots:
 
   '@types/axios@0.14.4':
@@ -387,3 +393,5 @@ snapshots:
   which@2.0.2:
     dependencies:
       isexe: 2.0.0
+
+  youtube-sr@4.3.12: {}
